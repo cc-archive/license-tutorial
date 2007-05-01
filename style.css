@@ -1,0 +1,163 @@
+body {
+  /*font: 62.5% Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+	color: #111;*/
+}
+
+#page, #content, #main-content {
+	width: 100% !important;
+}
+
+#cctut {
+	font-size: 85%;
+	text-align: left;
+  width: 100%;
+  padding-left: 0.5em;
+	margin: 0 auto;
+  margin-top: 3em;
+	margin-bottom: 10em;
+
+	max-width: 1000px;
+	
+}
+#cctut .sidebar {
+  width: 22%;
+  padding-left: 0.5em;
+  float: left;
+}
+#cctut .content {
+	float: left;
+  width: 72%;
+  margin-left: 26px;
+}
+#cctut .title {
+  height: 3em;
+  width: 18.5em;
+  padding-right: 1.5em;
+  border-bottom: 1px solid #ccc;
+}
+#cctut .main {
+  width: 100%;
+	margin-left: 0%;
+	padding-top: 0.3em;
+  padding-bottom: 20px;
+  font-size: 1.2em;
+  color: #222;
+}
+
+#cctut .nav {
+	clear: both;
+  width: 90%;
+  padding: 0.5em 5%;
+	margin: 0;
+	margin-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+
+#cctut h1.title {
+  margin: 0;
+  font-family: Georgia, Serif;
+  font-size: 3em;
+}
+
+#cctut .main h2 {
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 20px !important;
+}
+#cctut .main img {
+  float: right;
+  margin-left: 2%;
+  padding: 6px 0.5em 0.5em 0;
+margin-right: 15px;
+margin-bottom: 0;
+}
+
+#cctut .main img.end {
+	float: none;
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 1px solid #ddd;
+}
+
+#cctut .main p {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 33px;
+}
+#cctut .main p.nospace {
+	margin-bottom: 10px;
+}
+
+#cctut .main p.end {
+	margin-top: 100px;
+	text-align: center;
+}
+
+#cctut .main .block {
+	clear: both;
+	border-top: 1px solid #eee;
+}
+
+#cctut .main ul, #cctut .main ol {
+	/*list-style: none;*/
+	padding-left: 30px !important;
+margin-left: 30px !important;
+	margin-bottom: 1em;
+}
+#cctut .main li {
+	margin-bottom: 1em;
+}
+
+#cctut .sidebar ul, #cctut .nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#cctut .sidebar ul {
+  list-style: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#cctut .sidebar ul li {
+  height: 4.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+#cctut .sidebar ul li a, #cctut .sidebar ul li p {
+  display: block;
+  height: 4em;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+#cctut .sidebar ul li a:hover, #cctut .nav li a:hover {
+  background-color: #eee;
+	text-decoration: none;
+}
+
+#cctut .nav li {
+  display: block;
+  width: 10.6em;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-weight: bold;
+}
+
+#cctut .nav li a {
+  display: block;
+  padding: 2px 0;
+}
+
+#cctut .nav li.previous {
+  float: left;
+}
+#cctut .nav li.next {
+  float: right;
+}
